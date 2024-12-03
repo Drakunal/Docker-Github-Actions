@@ -1,0 +1,21 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore local environment files
+.env
+
+# Ignore version control folders
+.git/
+.gitignore
+
+# Ignore editor and IDE settings
+*.vscode/
+*.idea/
+
+# Ignore unnecessary folders inside mlruns
+mlruns/.trash/
+
+# Ignore anything else you don't need for production
+tests/
